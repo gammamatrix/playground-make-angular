@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2024-05-03 05:25:41</timestamp>
+  <timestamp>2024-05-05 06:07:08</timestamp>
   <stats>
     <name>Method Crap Stats</name>
     <methodCount>5</methodCount>
@@ -12,8 +12,8 @@
   </stats>
   <methods>
     <method>
-      <package>Playground\Make\Policy</package>
-      <className>Playground\Make\Policy\ServiceProvider</className>
+      <package>Playground\Make\Angular</package>
+      <className>Playground\Make\Angular\ServiceProvider</className>
       <methodName>boot</methodName>
       <methodSignature>boot()</methodSignature>
       <fullMethod>boot()</fullMethod>
@@ -23,8 +23,8 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>Playground\Make\Policy</package>
-      <className>Playground\Make\Policy\ServiceProvider</className>
+      <package>Playground\Make\Angular</package>
+      <className>Playground\Make\Angular\ServiceProvider</className>
       <methodName>boot_commands</methodName>
       <methodSignature>boot_commands(): array</methodSignature>
       <fullMethod>boot_commands(): array</fullMethod>
@@ -34,8 +34,8 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>Playground\Make\Policy</package>
-      <className>Playground\Make\Policy\ServiceProvider</className>
+      <package>Playground\Make\Angular</package>
+      <className>Playground\Make\Angular\ServiceProvider</className>
       <methodName>register</methodName>
       <methodSignature>register(): void</methodSignature>
       <fullMethod>register(): void</fullMethod>
@@ -45,8 +45,8 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>Playground\Make\Policy</package>
-      <className>Playground\Make\Policy\ServiceProvider</className>
+      <package>Playground\Make\Angular</package>
+      <className>Playground\Make\Angular\ServiceProvider</className>
       <methodName>about</methodName>
       <methodSignature>about(): void</methodSignature>
       <fullMethod>about(): void</fullMethod>
@@ -56,8 +56,8 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>Playground\Make\Policy</package>
-      <className>Playground\Make\Policy\ServiceProvider</className>
+      <package>Playground\Make\Angular</package>
+      <className>Playground\Make\Angular\ServiceProvider</className>
       <methodName>version</methodName>
       <methodSignature>version(): string</methodSignature>
       <fullMethod>version(): string</fullMethod>

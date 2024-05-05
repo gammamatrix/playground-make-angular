@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="1" branch-rate="0" lines-covered="33" lines-valid="33" branches-covered="0" branches-valid="0" complexity="16" version="0.4" timestamp="1714713941">
+<coverage line-rate="1" branch-rate="0" lines-covered="33" lines-valid="33" branches-covered="0" branches-valid="0" complexity="16" version="0.4" timestamp="1714889228">
   <sources>
     <source>/app/src</source>
   </sources>
   <packages>
     <package name="ServiceProvider.php" line-rate="1" branch-rate="0" complexity="16">
       <classes>
-        <class name="Playground\Make\Policy\ServiceProvider" filename="ServiceProvider.php" line-rate="1" branch-rate="0" complexity="16">
+        <class name="Playground\Make\Angular\ServiceProvider" filename="ServiceProvider.php" line-rate="1" branch-rate="0" complexity="16">
           <methods>
             <method name="boot" signature="" line-rate="1" branch-rate="0" complexity="7">
               <lines>
