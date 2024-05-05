@@ -4,20 +4,20 @@
  */
 
 declare(strict_types=1);
-namespace Playground\Make\Policy;
+namespace Playground\Make\Angular;
 
 use Illuminate\Console\GeneratorCommand;
 use Illuminate\Foundation\Console\AboutCommand;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider;
 
 /**
- * \Playground\Make\Policy\ServiceProvider
+ * \Playground\Make\Angular\ServiceProvider
  */
 class ServiceProvider extends AuthServiceProvider
 {
     public const VERSION = '73.0.0';
 
-    public string $package = 'playground-make-policy';
+    public string $package = 'playground-make-angular';
 
     /**
      * Bootstrap any package services.
@@ -65,7 +65,7 @@ class ServiceProvider extends AuthServiceProvider
     {
         $commands = [];
 
-        // $commands[] = Console\Commands\PolicyMakeCommand::class;
+        // $commands[] = Console\Commands\AngularMakeCommand::class;
 
         $this->commands($commands);
 
@@ -78,8 +78,8 @@ class ServiceProvider extends AuthServiceProvider
     public function register(): void
     {
         $this->mergeConfigFrom(
-            dirname(__DIR__).'/config/playground-make-policy.php',
-            'playground-make-policy'
+            dirname(__DIR__).'/config/playground-make-angular.php',
+            'playground-make-angular'
         );
     }
 
@@ -92,7 +92,7 @@ class ServiceProvider extends AuthServiceProvider
 
         $version = $this->version();
 
-        AboutCommand::add('Playground: Make Policy', fn () => [
+        AboutCommand::add('Playground: Make Angular', fn () => [
             '<fg=yellow;options=bold>Load</> Commands' => ! empty($load['commands']) ? '<fg=green;options=bold>ENABLED</>' : '<fg=yellow;options=bold>DISABLED</>',
             '<fg=yellow;options=bold>Load</> Translations' => ! empty($load['translations']) ? '<fg=green;options=bold>ENABLED</>' : '<fg=yellow;options=bold>DISABLED</>',
             'Package' => $this->package,

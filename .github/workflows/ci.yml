@@ -35,13 +35,13 @@ jobs:
         channel-id: 'C068A06PV43'
         payload: |
           {
-            "text": "CI Build Status for playground-make-policy: IN PROGRESS\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
+            "text": "CI Build Status for playground-make-angular: IN PROGRESS\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
             "blocks": [
               {
                 "type": "header",
                 "text": {
                   "type": "plain_text",
-                  "text": ":runner: CI Build Status for playground-make-policy"
+                  "text": ":runner: CI Build Status for playground-make-angular"
                 }
               },
               {
@@ -138,13 +138,13 @@ jobs:
         update-ts: ${{ steps.slack.outputs.ts }}
         payload: |
           {
-            "text": "CI Build Status for playground-make-policy: DONE\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
+            "text": "CI Build Status for playground-make-angular: DONE\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
             "blocks": [
               {
                 "type": "header",
                 "text": {
                   "type": "plain_text",
-                  "text": ":white_check_mark: CI Build Status for playground-make-policy"
+                  "text": ":white_check_mark: CI Build Status for playground-make-angular"
                 }
               },
               {
@@ -199,13 +199,13 @@ jobs:
         update-ts: ${{ steps.slack.outputs.ts }}
         payload: |
           {
-            "text": "CI Build Status for playground-make-policy: FAILED\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
+            "text": "CI Build Status for playground-make-angular: FAILED\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
             "blocks": [
               {
                 "type": "header",
                 "text": {
                   "type": "plain_text",
-                  "text": ":warning: CI Build Status for playground-make-policy"
+                  "text": ":warning: CI Build Status for playground-make-angular"
                 }
               },
               {

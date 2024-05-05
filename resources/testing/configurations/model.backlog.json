@@ -15,7 +15,7 @@
     "factory": false,
     "migration": false,
     "playground": true,
-    "policy": false,
+    "angular": false,
     "seed": false,
     "test": false,
     "HasOne": {

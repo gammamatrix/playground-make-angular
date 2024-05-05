@@ -21,7 +21,7 @@ return [
     |
     */
 
-    'about' => (bool) env('PLAYGROUND_MAKE_POLICY_ABOUT', true),
+    'about' => (bool) env('PLAYGROUND_MAKE_ANGULAR_ABOUT', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -33,7 +33,7 @@ return [
     */
 
     'load' => [
-        'commands' => (bool) env('PLAYGROUND_MAKE_POLICY_LOAD_COMMANDS', true),
-        'translations' => (bool) env('PLAYGROUND_MAKE_POLICY_LOAD_TRANSLATIONS', true),
+        'commands' => (bool) env('PLAYGROUND_MAKE_ANGULAR_LOAD_COMMANDS', true),
+        'translations' => (bool) env('PLAYGROUND_MAKE_ANGULAR_LOAD_TRANSLATIONS', true),
     ],
 ];

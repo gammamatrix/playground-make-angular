@@ -4,10 +4,10 @@
  */
 
 declare(strict_types=1);
-namespace Tests\Unit\Playground\Make\Policy;
+namespace Tests\Unit\Playground\Make\Angular;
 
 /**
- * \Tests\Unit\Playground\Make\Policy\FileTrait
+ * \Tests\Unit\Playground\Make\Angular\FileTrait
  */
 trait FileTrait
 {

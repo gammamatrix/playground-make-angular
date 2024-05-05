@@ -1,10 +1,10 @@
-# Playground: Make Policy
+# Playground: Make Angular
 
-[![Playground CI Workflow](https://github.com/gammamatrix/playground-make-policy/actions/workflows/ci.yml/badge.svg?branch=develop)](https://raw.githubusercontent.com/gammamatrix/playground-make-policy/testing/develop/testdox.txt)
-[![Test Coverage](https://raw.githubusercontent.com/gammamatrix/playground-make-policy/testing/develop/coverage.svg)](tests)
+[![Playground CI Workflow](https://github.com/gammamatrix/playground-make-angular/actions/workflows/ci.yml/badge.svg?branch=develop)](https://raw.githubusercontent.com/gammamatrix/playground-make-angular/testing/develop/testdox.txt)
+[![Test Coverage](https://raw.githubusercontent.com/gammamatrix/playground-make-angular/testing/develop/coverage.svg)](tests)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-level%209-brightgreen)](.github/workflows/ci.yml#L120)
 
-The Playground Make Policy Tool for building out [Laravel](https://laravel.com/docs/11.x) applications.
+The Playground Make Angular Tool for building out [Laravel](https://laravel.com/docs/11.x) applications.
 
 ## Installation
 
@@ -14,16 +14,16 @@ The Playground Make Policy Tool for building out [Laravel](https://laravel.com/d
 
 Playground Make provides information in the `artisan about` command.
 
-<!-- <img src="resources/docs/artisan-about-playground-make-policy.png" alt="screenshot of artisan about command with Playground Make."> -->
+<!-- <img src="resources/docs/artisan-about-playground-make-angular.png" alt="screenshot of artisan about command with Playground Make."> -->
 
 ## Configuration
 
 You can publish the config file with:
 ```bash
-php artisan vendor:publish --provider="Playground\Make\Policy\ServiceProvider" --tag="playground-config"
+php artisan vendor:publish --provider="Playground\Make\Angular\ServiceProvider" --tag="playground-config"
 ```
 
-See the contents of the published config file: [config/playground-make-policy.php](config/playground-make-policy.php)
+See the contents of the published config file: [config/playground-make-angular.php](config/playground-make-angular.php)
 
 ## Commands
 
